@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EFAE4C43E7EE25D3A7D0C9F /* libPods-AreaSelectPicDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 412E020F628D50DEB686F54A /* libPods-AreaSelectPicDemo.a */; };
+		BF250CD7214A46DC002DB457 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250CD6214A46DC002DB457 /* AppDelegate.m */; };
+		BF250CDA214A46DC002DB457 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250CD9214A46DC002DB457 /* ViewController.m */; };
+		BF250CDD214A46DC002DB457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF250CDB214A46DC002DB457 /* Main.storyboard */; };
+		BF250CDF214A46DF002DB457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF250CDE214A46DF002DB457 /* Assets.xcassets */; };
+		BF250CE2214A46DF002DB457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF250CE0214A46DF002DB457 /* LaunchScreen.storyboard */; };
+		BF250CE5214A46DF002DB457 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250CE4214A46DF002DB457 /* main.m */; };
+		BF250CEF214A46DF002DB457 /* AreaSelectPicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250CEE214A46DF002DB457 /* AreaSelectPicDemoTests.m */; };
+		BF250CFA214A46DF002DB457 /* AreaSelectPicDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250CF9214A46DF002DB457 /* AreaSelectPicDemoUITests.m */; };
+		BF250D0B214A48C8002DB457 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF250D08214A48C8002DB457 /* area.plist */; };
+		BF250D0C214A48C8002DB457 /* PlaceSelectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF250D09214A48C8002DB457 /* PlaceSelectPickerView.m */; };
+		BF7FDDEF21B6604100896947 /* SelectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7FDDEE21B6604100896947 /* SelectTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF250CEB214A46DF002DB457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF250CCA214A46DC002DB457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF250CD1214A46DC002DB457;
+			remoteInfo = AreaSelectPicDemo;
+		};
+		BF250CF6214A46DF002DB457 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF250CCA214A46DC002DB457 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF250CD1214A46DC002DB457;
+			remoteInfo = AreaSelectPicDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B95F95FFC65CFC61F788B6B /* Pods-AreaSelectPicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaSelectPicDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AreaSelectPicDemo/Pods-AreaSelectPicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		412E020F628D50DEB686F54A /* libPods-AreaSelectPicDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AreaSelectPicDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48F49D0A7BCA0FE473D5B3A0 /* Pods-AreaSelectPicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AreaSelectPicDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-AreaSelectPicDemo/Pods-AreaSelectPicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		BF250CD2214A46DC002DB457 /* AreaSelectPicDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AreaSelectPicDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF250CD5214A46DC002DB457 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF250CD6214A46DC002DB457 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF250CD8214A46DC002DB457 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF250CD9214A46DC002DB457 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF250CDC214A46DC002DB457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF250CDE214A46DF002DB457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF250CE1214A46DF002DB457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF250CE3214A46DF002DB457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF250CE4214A46DF002DB457 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF250CEA214A46DF002DB457 /* AreaSelectPicDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaSelectPicDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF250CEE214A46DF002DB457 /* AreaSelectPicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaSelectPicDemoTests.m; sourceTree = "<group>"; };
+		BF250CF0214A46DF002DB457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF250CF5214A46DF002DB457 /* AreaSelectPicDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AreaSelectPicDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF250CF9214A46DF002DB457 /* AreaSelectPicDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AreaSelectPicDemoUITests.m; sourceTree = "<group>"; };
+		BF250CFB214A46DF002DB457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF250D08214A48C8002DB457 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		BF250D09214A48C8002DB457 /* PlaceSelectPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceSelectPickerView.m; sourceTree = "<group>"; };
+		BF250D0A214A48C8002DB457 /* PlaceSelectPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceSelectPickerView.h; sourceTree = "<group>"; };
+		BF7FDDED21B6604100896947 /* SelectTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectTableViewCell.h; sourceTree = "<group>"; };
+		BF7FDDEE21B6604100896947 /* SelectTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF250CCF214A46DC002DB457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFAE4C43E7EE25D3A7D0C9F /* libPods-AreaSelectPicDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CE7214A46DF002DB457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CF2214A46DF002DB457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CA8BEEEAF4DD8FD889D3292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B95F95FFC65CFC61F788B6B /* Pods-AreaSelectPicDemo.debug.xcconfig */,
+				48F49D0A7BCA0FE473D5B3A0 /* Pods-AreaSelectPicDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF250CC9214A46DC002DB457 = {
+			isa = PBXGroup;
+			children = (
+				BF250CD4214A46DC002DB457 /* AreaSelectPicDemo */,
+				BF250CED214A46DF002DB457 /* AreaSelectPicDemoTests */,
+				BF250CF8214A46DF002DB457 /* AreaSelectPicDemoUITests */,
+				BF250CD3214A46DC002DB457 /* Products */,
+				8CA8BEEEAF4DD8FD889D3292 /* Pods */,
+				E7B66B1BF07F7FBBD16C3B21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF250CD3214A46DC002DB457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF250CD2214A46DC002DB457 /* AreaSelectPicDemo.app */,
+				BF250CEA214A46DF002DB457 /* AreaSelectPicDemoTests.xctest */,
+				BF250CF5214A46DF002DB457 /* AreaSelectPicDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF250CD4214A46DC002DB457 /* AreaSelectPicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF250D07214A4891002DB457 /* Base */,
+				BF250CD5214A46DC002DB457 /* AppDelegate.h */,
+				BF250CD6214A46DC002DB457 /* AppDelegate.m */,
+				BF250CD8214A46DC002DB457 /* ViewController.h */,
+				BF250CD9214A46DC002DB457 /* ViewController.m */,
+				BF7FDDED21B6604100896947 /* SelectTableViewCell.h */,
+				BF7FDDEE21B6604100896947 /* SelectTableViewCell.m */,
+				BF250CDB214A46DC002DB457 /* Main.storyboard */,
+				BF250CDE214A46DF002DB457 /* Assets.xcassets */,
+				BF250CE0214A46DF002DB457 /* LaunchScreen.storyboard */,
+				BF250CE3214A46DF002DB457 /* Info.plist */,
+				BF250CE4214A46DF002DB457 /* main.m */,
+			);
+			path = AreaSelectPicDemo;
+			sourceTree = "<group>";
+		};
+		BF250CED214A46DF002DB457 /* AreaSelectPicDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF250CEE214A46DF002DB457 /* AreaSelectPicDemoTests.m */,
+				BF250CF0214A46DF002DB457 /* Info.plist */,
+			);
+			path = AreaSelectPicDemoTests;
+			sourceTree = "<group>";
+		};
+		BF250CF8214A46DF002DB457 /* AreaSelectPicDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF250CF9214A46DF002DB457 /* AreaSelectPicDemoUITests.m */,
+				BF250CFB214A46DF002DB457 /* Info.plist */,
+			);
+			path = AreaSelectPicDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF250D07214A4891002DB457 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BF250D08214A48C8002DB457 /* area.plist */,
+				BF250D0A214A48C8002DB457 /* PlaceSelectPickerView.h */,
+				BF250D09214A48C8002DB457 /* PlaceSelectPickerView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		E7B66B1BF07F7FBBD16C3B21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412E020F628D50DEB686F54A /* libPods-AreaSelectPicDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF250CD1214A46DC002DB457 /* AreaSelectPicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF250CFE214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemo" */;
+			buildPhases = (
+				9DBE93AD0EE9AF28556D2C4F /* [CP] Check Pods Manifest.lock */,
+				BF250CCE214A46DC002DB457 /* Sources */,
+				BF250CCF214A46DC002DB457 /* Frameworks */,
+				BF250CD0214A46DC002DB457 /* Resources */,
+				048CC53596AC7A12AEA1B81B /* [CP] Embed Pods Frameworks */,
+				CFC5B5A615BA1BB9A7DD9B6B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AreaSelectPicDemo;
+			productName = AreaSelectPicDemo;
+			productReference = BF250CD2214A46DC002DB457 /* AreaSelectPicDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF250CE9214A46DF002DB457 /* AreaSelectPicDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF250D01214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemoTests" */;
+			buildPhases = (
+				BF250CE6214A46DF002DB457 /* Sources */,
+				BF250CE7214A46DF002DB457 /* Frameworks */,
+				BF250CE8214A46DF002DB457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF250CEC214A46DF002DB457 /* PBXTargetDependency */,
+			);
+			name = AreaSelectPicDemoTests;
+			productName = AreaSelectPicDemoTests;
+			productReference = BF250CEA214A46DF002DB457 /* AreaSelectPicDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF250CF4214A46DF002DB457 /* AreaSelectPicDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF250D04214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemoUITests" */;
+			buildPhases = (
+				BF250CF1214A46DF002DB457 /* Sources */,
+				BF250CF2214A46DF002DB457 /* Frameworks */,
+				BF250CF3214A46DF002DB457 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF250CF7214A46DF002DB457 /* PBXTargetDependency */,
+			);
+			name = AreaSelectPicDemoUITests;
+			productName = AreaSelectPicDemoUITests;
+			productReference = BF250CF5214A46DF002DB457 /* AreaSelectPicDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF250CCA214A46DC002DB457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = jimmy;
+				TargetAttributes = {
+					BF250CD1214A46DC002DB457 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					BF250CE9214A46DF002DB457 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BF250CD1214A46DC002DB457;
+					};
+					BF250CF4214A46DF002DB457 = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = BF250CD1214A46DC002DB457;
+					};
+				};
+			};
+			buildConfigurationList = BF250CCD214A46DC002DB457 /* Build configuration list for PBXProject "AreaSelectPicDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF250CC9214A46DC002DB457;
+			productRefGroup = BF250CD3214A46DC002DB457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF250CD1214A46DC002DB457 /* AreaSelectPicDemo */,
+				BF250CE9214A46DF002DB457 /* AreaSelectPicDemoTests */,
+				BF250CF4214A46DF002DB457 /* AreaSelectPicDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF250CD0214A46DC002DB457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF250CE2214A46DF002DB457 /* LaunchScreen.storyboard in Resources */,
+				BF250D0B214A48C8002DB457 /* area.plist in Resources */,
+				BF250CDF214A46DF002DB457 /* Assets.xcassets in Resources */,
+				BF250CDD214A46DC002DB457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CE8214A46DF002DB457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CF3214A46DF002DB457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		048CC53596AC7A12AEA1B81B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreaSelectPicDemo/Pods-AreaSelectPicDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DBE93AD0EE9AF28556D2C4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AreaSelectPicDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFC5B5A615BA1BB9A7DD9B6B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AreaSelectPicDemo/Pods-AreaSelectPicDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF250CCE214A46DC002DB457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF250D0C214A48C8002DB457 /* PlaceSelectPickerView.m in Sources */,
+				BF250CDA214A46DC002DB457 /* ViewController.m in Sources */,
+				BF7FDDEF21B6604100896947 /* SelectTableViewCell.m in Sources */,
+				BF250CE5214A46DF002DB457 /* main.m in Sources */,
+				BF250CD7214A46DC002DB457 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CE6214A46DF002DB457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF250CEF214A46DF002DB457 /* AreaSelectPicDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF250CF1214A46DF002DB457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF250CFA214A46DF002DB457 /* AreaSelectPicDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF250CEC214A46DF002DB457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF250CD1214A46DC002DB457 /* AreaSelectPicDemo */;
+			targetProxy = BF250CEB214A46DF002DB457 /* PBXContainerItemProxy */;
+		};
+		BF250CF7214A46DF002DB457 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF250CD1214A46DC002DB457 /* AreaSelectPicDemo */;
+			targetProxy = BF250CF6214A46DF002DB457 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF250CDB214A46DC002DB457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF250CDC214A46DC002DB457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF250CE0214A46DF002DB457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF250CE1214A46DF002DB457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF250CFC214A46DF002DB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF250CFD214A46DF002DB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF250CFF214A46DF002DB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B95F95FFC65CFC61F788B6B /* Pods-AreaSelectPicDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DUZJ24UG5;
+				INFOPLIST_FILE = AreaSelectPicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF250D00214A46DF002DB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48F49D0A7BCA0FE473D5B3A0 /* Pods-AreaSelectPicDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7DUZJ24UG5;
+				INFOPLIST_FILE = AreaSelectPicDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF250D02214A46DF002DB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AreaSelectPicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreaSelectPicDemo.app/AreaSelectPicDemo";
+			};
+			name = Debug;
+		};
+		BF250D03214A46DF002DB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AreaSelectPicDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AreaSelectPicDemo.app/AreaSelectPicDemo";
+			};
+			name = Release;
+		};
+		BF250D05214A46DF002DB457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AreaSelectPicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AreaSelectPicDemo;
+			};
+			name = Debug;
+		};
+		BF250D06214A46DF002DB457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = AreaSelectPicDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jimmylot.AreaSelectPicDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AreaSelectPicDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF250CCD214A46DC002DB457 /* Build configuration list for PBXProject "AreaSelectPicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF250CFC214A46DF002DB457 /* Debug */,
+				BF250CFD214A46DF002DB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF250CFE214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF250CFF214A46DF002DB457 /* Debug */,
+				BF250D00214A46DF002DB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF250D01214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF250D02214A46DF002DB457 /* Debug */,
+				BF250D03214A46DF002DB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF250D04214A46DF002DB457 /* Build configuration list for PBXNativeTarget "AreaSelectPicDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF250D05214A46DF002DB457 /* Debug */,
+				BF250D06214A46DF002DB457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF250CCA214A46DC002DB457 /* Project object */;
+}

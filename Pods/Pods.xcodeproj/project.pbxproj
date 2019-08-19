@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01DCA626253999D31A5718427E41573D /* GKCoverEnum.h in Headers */ = {isa = PBXBuildFile; fileRef = C1320B4FAF0DBA0126C1958EA0DF5CA1 /* GKCoverEnum.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3699635DD432620DAD27F3B8FE02CC0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		42B55F3926ECD45C2F9405072BEB311D /* GKCover.m in Sources */ = {isa = PBXBuildFile; fileRef = 391946788E3EF7902CD7C2DFCDFC8BC8 /* GKCover.m */; };
+		8ADBBEB213BEFFCBFDB0A4C8A7376112 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		94E2B714910AB4348EAC0F523A7F29E4 /* GKCover.h in Headers */ = {isa = PBXBuildFile; fileRef = F1F13EB4A50152E5BA32832F5247B4D2 /* GKCover.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9AED041F7A32CA814159791CD16DEDFD /* UIView+GKExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = C395475B790CD87731190F047A4B2366 /* UIView+GKExtension.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6B98DDBF59BB04676F523D61D394269 /* UIView+GKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = FD77419F8A0C1AFF29CDB8CA72457651 /* UIView+GKExtension.m */; };
+		A8F0AC5C71121875F5139168E53803BA /* Pods-AreaSelectPicDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E4BEED88E3915D8BC8E44AE731B24FF /* Pods-AreaSelectPicDemo-dummy.m */; };
+		EAD5927882364AFF05AEABAB2428B9CE /* GKCover-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08462EF163D8411C0625E88A39C90842 /* GKCover-dummy.m */; };
+		EF3A40AB8E359D001D346930071B9672 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D999A99B0E852484BEB57B44D9DB554 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 037F38D81E2192F4EC3C900CBF2B287E;
+			remoteInfo = GKCover;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08462EF163D8411C0625E88A39C90842 /* GKCover-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GKCover-dummy.m"; sourceTree = "<group>"; };
+		2AF30C3CD82FD20FE0BE5B824C08AD1F /* libPods-AreaSelectPicDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AreaSelectPicDemo.a"; path = "libPods-AreaSelectPicDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3F7E9D08A7D2A2918F923650B6CCCF /* libGKCover.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGKCover.a; path = libGKCover.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		391946788E3EF7902CD7C2DFCDFC8BC8 /* GKCover.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GKCover.m; path = GKCover/GKCover.m; sourceTree = "<group>"; };
+		86C5E23E166615ABEB9D12B4C41E0EE8 /* Pods-AreaSelectPicDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AreaSelectPicDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8E4BEED88E3915D8BC8E44AE731B24FF /* Pods-AreaSelectPicDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AreaSelectPicDemo-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D8330CD482E72CF63A3D0DE36E4DB13 /* Pods-AreaSelectPicDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AreaSelectPicDemo-frameworks.sh"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C1320B4FAF0DBA0126C1958EA0DF5CA1 /* GKCoverEnum.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKCoverEnum.h; path = GKCover/GKCoverEnum.h; sourceTree = "<group>"; };
+		C27186CD109152A63481DAD164DFC911 /* GKCover.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GKCover.xcconfig; sourceTree = "<group>"; };
+		C395475B790CD87731190F047A4B2366 /* UIView+GKExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+GKExtension.h"; path = "GKCover/Category/UIView+GKExtension.h"; sourceTree = "<group>"; };
+		CC530CE441C82327BEC3C131B672435A /* Pods-AreaSelectPicDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AreaSelectPicDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		D75DC4CC66795813787BB383B58C587B /* Pods-AreaSelectPicDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AreaSelectPicDemo-resources.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EBFF98A999A887A75548BD440C816E4F /* GKCover-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GKCover-prefix.pch"; sourceTree = "<group>"; };
+		F1F13EB4A50152E5BA32832F5247B4D2 /* GKCover.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GKCover.h; path = GKCover/GKCover.h; sourceTree = "<group>"; };
+		FA522A455C299E3EEAB30B9C2082D2DA /* Pods-AreaSelectPicDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AreaSelectPicDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FBC3545B8F0996B2DC4D5480837E5508 /* Pods-AreaSelectPicDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AreaSelectPicDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FD77419F8A0C1AFF29CDB8CA72457651 /* UIView+GKExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+GKExtension.m"; path = "GKCover/Category/UIView+GKExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F04D83DB4356C04DC2C72344558E0A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3699635DD432620DAD27F3B8FE02CC0A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A6BF336687610FF64F0FE1748AAB74B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3A40AB8E359D001D346930071B9672 /* Foundation.framework in Frameworks */,
+				8ADBBEB213BEFFCBFDB0A4C8A7376112 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19D42C7D61D026BE66ECB186C49BC245 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C27186CD109152A63481DAD164DFC911 /* GKCover.xcconfig */,
+				08462EF163D8411C0625E88A39C90842 /* GKCover-dummy.m */,
+				EBFF98A999A887A75548BD440C816E4F /* GKCover-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GKCover";
+			sourceTree = "<group>";
+		};
+		21076224347D69D8C390C152AC1276B4 /* GKCover */ = {
+			isa = PBXGroup;
+			children = (
+				F1F13EB4A50152E5BA32832F5247B4D2 /* GKCover.h */,
+				391946788E3EF7902CD7C2DFCDFC8BC8 /* GKCover.m */,
+				C1320B4FAF0DBA0126C1958EA0DF5CA1 /* GKCoverEnum.h */,
+				C395475B790CD87731190F047A4B2366 /* UIView+GKExtension.h */,
+				FD77419F8A0C1AFF29CDB8CA72457651 /* UIView+GKExtension.m */,
+				19D42C7D61D026BE66ECB186C49BC245 /* Support Files */,
+			);
+			name = GKCover;
+			path = GKCover;
+			sourceTree = "<group>";
+		};
+		272C5269339934ADEFDC4A632885C624 /* Pods-AreaSelectPicDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FBC3545B8F0996B2DC4D5480837E5508 /* Pods-AreaSelectPicDemo-acknowledgements.markdown */,
+				CC530CE441C82327BEC3C131B672435A /* Pods-AreaSelectPicDemo-acknowledgements.plist */,
+				8E4BEED88E3915D8BC8E44AE731B24FF /* Pods-AreaSelectPicDemo-dummy.m */,
+				9D8330CD482E72CF63A3D0DE36E4DB13 /* Pods-AreaSelectPicDemo-frameworks.sh */,
+				D75DC4CC66795813787BB383B58C587B /* Pods-AreaSelectPicDemo-resources.sh */,
+				FA522A455C299E3EEAB30B9C2082D2DA /* Pods-AreaSelectPicDemo.debug.xcconfig */,
+				86C5E23E166615ABEB9D12B4C41E0EE8 /* Pods-AreaSelectPicDemo.release.xcconfig */,
+			);
+			name = "Pods-AreaSelectPicDemo";
+			path = "Target Support Files/Pods-AreaSelectPicDemo";
+			sourceTree = "<group>";
+		};
+		317409C43C8D931CF9EE4B1B03DFFF83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C3F7E9D08A7D2A2918F923650B6CCCF /* libGKCover.a */,
+				2AF30C3CD82FD20FE0BE5B824C08AD1F /* libPods-AreaSelectPicDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				F6F4D302CC815FF2EF260A6ED3304346 /* Pods */,
+				317409C43C8D931CF9EE4B1B03DFFF83 /* Products */,
+				D9E0023215A1821FA5A026225FA87B3F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9E0023215A1821FA5A026225FA87B3F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				272C5269339934ADEFDC4A632885C624 /* Pods-AreaSelectPicDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F6F4D302CC815FF2EF260A6ED3304346 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21076224347D69D8C390C152AC1276B4 /* GKCover */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8B275FC1F86E23168A542CBEFAB94915 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94E2B714910AB4348EAC0F523A7F29E4 /* GKCover.h in Headers */,
+				01DCA626253999D31A5718427E41573D /* GKCoverEnum.h in Headers */,
+				9AED041F7A32CA814159791CD16DEDFD /* UIView+GKExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		037F38D81E2192F4EC3C900CBF2B287E /* GKCover */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6B286F7F10D69166BB304F6BC2766D0 /* Build configuration list for PBXNativeTarget "GKCover" */;
+			buildPhases = (
+				6003AD4DA094D26C3828B13CD14F9A04 /* Sources */,
+				3A6BF336687610FF64F0FE1748AAB74B /* Frameworks */,
+				8B275FC1F86E23168A542CBEFAB94915 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GKCover;
+			productName = GKCover;
+			productReference = 2C3F7E9D08A7D2A2918F923650B6CCCF /* libGKCover.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B0E500B990D43471611E80CF473704B /* Pods-AreaSelectPicDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEDEB9E9793A59F8CB2CB29A58519DA /* Build configuration list for PBXNativeTarget "Pods-AreaSelectPicDemo" */;
+			buildPhases = (
+				344037C844B2EE3E91FAB00FD0EF5959 /* Sources */,
+				1F04D83DB4356C04DC2C72344558E0A3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C5EDFA29CE7C7B1CB8A522502087DA /* PBXTargetDependency */,
+			);
+			name = "Pods-AreaSelectPicDemo";
+			productName = "Pods-AreaSelectPicDemo";
+			productReference = 2AF30C3CD82FD20FE0BE5B824C08AD1F /* libPods-AreaSelectPicDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 317409C43C8D931CF9EE4B1B03DFFF83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				037F38D81E2192F4EC3C900CBF2B287E /* GKCover */,
+				5B0E500B990D43471611E80CF473704B /* Pods-AreaSelectPicDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		344037C844B2EE3E91FAB00FD0EF5959 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8F0AC5C71121875F5139168E53803BA /* Pods-AreaSelectPicDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003AD4DA094D26C3828B13CD14F9A04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAD5927882364AFF05AEABAB2428B9CE /* GKCover-dummy.m in Sources */,
+				42B55F3926ECD45C2F9405072BEB311D /* GKCover.m in Sources */,
+				A6B98DDBF59BB04676F523D61D394269 /* UIView+GKExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7C5EDFA29CE7C7B1CB8A522502087DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GKCover;
+			target = 037F38D81E2192F4EC3C900CBF2B287E /* GKCover */;
+			targetProxy = 3D999A99B0E852484BEB57B44D9DB554 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		26F954BA177A9A46FFFD4E23ED11D67A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		440B9B614EA494E531CE912198BD6978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27186CD109152A63481DAD164DFC911 /* GKCover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GKCover/GKCover-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86A7602F0277536FEF39D6DACEAC82F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C5E23E166615ABEB9D12B4C41E0EE8 /* Pods-AreaSelectPicDemo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0DC80911B24B84277811E469F2A613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27186CD109152A63481DAD164DFC911 /* GKCover.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GKCover/GKCover-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D98230CEB0023D9F2E6F2918EC20AB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA522A455C299E3EEAB30B9C2082D2DA /* Pods-AreaSelectPicDemo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2BF6D6731C31DE69900B7B24E6F0445 /* Debug */,
+				26F954BA177A9A46FFFD4E23ED11D67A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEDEB9E9793A59F8CB2CB29A58519DA /* Build configuration list for PBXNativeTarget "Pods-AreaSelectPicDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98230CEB0023D9F2E6F2918EC20AB85 /* Debug */,
+				86A7602F0277536FEF39D6DACEAC82F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6B286F7F10D69166BB304F6BC2766D0 /* Build configuration list for PBXNativeTarget "GKCover" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0DC80911B24B84277811E469F2A613 /* Debug */,
+				440B9B614EA494E531CE912198BD6978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
